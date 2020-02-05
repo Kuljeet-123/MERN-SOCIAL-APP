@@ -17,6 +17,8 @@
   "homepage": "https://kuljeet-123.github.io/MERN-SOCIAL-APP/",
   "main": "./dist/server.generated.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "development": "nodemon",
     "build": "webpack --config webpack.config.client.production.js && webpack --mode=production --config webpack.config.server.js",
     "start": "NODE_ENV=production node ./dist/server.generated.js"
