@@ -1,6 +1,6 @@
 # MERN Social
 
-A simple social media application with users, posts, likes and comments - Developed using React, Node, Express and MongoDB. 
+A simple Social Media application with users, posts, likes and comments - Developed using React, Node, Express and MongoDB. 
 
 ![MERN Social](https://s3.amazonaws.com/mernbook/git+/social.png "MERN Social")
 
